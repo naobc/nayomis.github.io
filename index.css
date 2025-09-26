@@ -1,19 +1,36 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    background-color: #fefefe; 
-    color: #333;
+    background-image: url("moños.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;  
+    color: #888888;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #f9e5ec;
+    background-color: rgba(249, 229, 236, 0.9);
     padding: 15px 0;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.logo {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 nav ul {
@@ -55,6 +72,9 @@ section {
     padding: 40px 20px;
     max-width: 900px;
     margin: auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    margin-bottom: 30px;
 }
 
 img {
@@ -80,7 +100,7 @@ a:hover {
 }
 
 footer {
-    background-color: #f9e5ec;
+    background-color: rgba(249, 229, 236, 0.9);
     padding: 15px;
     margin-top: 40px;
     font-size: 0.9rem;
